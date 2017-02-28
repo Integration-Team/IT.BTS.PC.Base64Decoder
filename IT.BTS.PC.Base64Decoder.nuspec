@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
     <metadata>
         <id>$id$</id>
         <version>$version$</version>
@@ -12,8 +12,15 @@
         <releaseNotes />
         <copyright>$copyright$</copyright>
         <tags>BizTalk PipelineComponent Decoder</tags>
+        <references></references>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.BizTalk.ExplorerOM" targetFramework="net45" />
+            <frameworkAssembly assemblyName="Microsoft.BizTalk.Pipeline" targetFramework="net45" />
+            <frameworkAssembly assemblyName="Microsoft.BizTalk.Streaming" targetFramework="net45" />
+        </frameworkAssemblies>
     </metadata>
     <files>
         <file src="bin\$configuration$\IT.BTS.PC.Base64Decoder.dll" target="lib\net45\IT.BTS.PC.Base64Decoder.dll" />
+        <file src="bin\$configuration$\Init.ps1" target="tools" />
     </files>
 </package>
