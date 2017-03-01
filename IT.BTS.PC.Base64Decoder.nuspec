@@ -20,7 +20,10 @@
         </frameworkAssemblies>
     </metadata>
     <files>
-        <file src="bin\$configuration$\IT.BTS.PC.Base64Decoder.dll" target="lib\net45\IT.BTS.PC.Base64Decoder.dll" />
+        <file src="bin\$configuration$\IT.BTS.PC.Base64Decoder.dll" target="lib\net45" />
+
+        <file src="bin\$configuration$\Microsoft.BizTalk.Pipeline.dll" target="lib\net45" />
+
         <file src="bin\$configuration$\Init.ps1" target="tools" />
     </files>
 </package>
