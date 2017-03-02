@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>$id$</id>
-        <version>$version$</version>
-        <title>$title$</title>
-        <authors>$author$</authors>
-        <owners>$author$</owners>
+        <id>IT.BTS.PC.Base64Decoder</id>
+        <version>1.0.0.0</version>
+        <title>IT.BTS.PC.Base64Decoder</title>
+        <authors>Integration.Team</authors>
+        <owners>Integration.Team</owners>
         <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>$description$</description>
+        <description>A BizTalk Pipeline Component designed to decode base64 streams</description>
         <releaseNotes />
-        <copyright>$copyright$</copyright>
+        <copyright>Copyright © Integration.Team 2017</copyright>
         <tags>BizTalk PipelineComponent Decoder</tags>
-        <references></references>
         <frameworkAssemblies>
-            <frameworkAssembly assemblyName="Microsoft.BizTalk.ExplorerOM" targetFramework="net45" />
-            <frameworkAssembly assemblyName="Microsoft.BizTalk.Pipeline" targetFramework="net45" />
-            <frameworkAssembly assemblyName="Microsoft.BizTalk.Streaming" targetFramework="net45" />
+            <frameworkAssembly assemblyName="Microsoft.BizTalk.ExplorerOM" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="Microsoft.BizTalk.Pipeline" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="Microsoft.BizTalk.Streaming" targetFramework=".NETFramework4.5" />
         </frameworkAssemblies>
+        <references>
+            <reference file="Microsoft.BizTalk.Pipeline.dll" />
+        </references>
     </metadata>
     <files>
-        <file src="bin\$configuration$\IT.BTS.PC.Base64Decoder.dll" target="lib\net45" />
-
-        <file src="bin\$configuration$\Microsoft.BizTalk.Pipeline.dll" target="lib\net45" />
-
-        <file src="bin\$configuration$\Init.ps1" target="tools" />
+        <file src="bin\$configuration$\IT.BTS.PC.Base64Decoder.dll" target="lib\net45\IT.BTS.PC.Base64Decoder.dll" />
+        <file src="bin\$configuration$\Microsoft.BizTalk.Pipeline.dll" target="lib\net45\Microsoft.BizTalk.Pipeline.dll" />
+        <file src="bin\$configuration$\Install.ps1" target="tools\Install.ps1" />
     </files>
 </package>
