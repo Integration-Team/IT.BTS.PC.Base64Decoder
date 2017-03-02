@@ -277,4 +277,5 @@ __pycache__/
 # tools/**
 # !tools/packages.config
 
-!BuildAssemblies/
+# exceptions for the BuildAssembly DLLs
+!BuildAssemblies/*.dll
