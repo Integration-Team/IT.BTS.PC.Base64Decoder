@@ -43,14 +43,17 @@
     <Reference Include="Microsoft.BizTalk.ExplorerOM, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2013 R2\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll</HintPath>
+      <HintPath>BuildAssemblies\Microsoft.BizTalk.ExplorerOM.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.BizTalk.Pipeline, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2013 R2\Microsoft.BizTalk.Pipeline.dll</HintPath>
+      <HintPath>BuildAssemblies\Microsoft.BizTalk.Pipeline.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.BizTalk.Streaming, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2013 R2\Microsoft.BizTalk.Streaming.dll</HintPath>
+      <HintPath>BuildAssemblies\Microsoft.BizTalk.Streaming.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
