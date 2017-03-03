@@ -6,7 +6,8 @@
 )
 
 $assemblyName = "IT.BTS.PC.Base64Decoder"
+$targetFramework = "net45"
 
 $packageRoot = $(Get-Item $toolsPath).Parent.FullName
-$sourceFile = "$packageRoot\lib\net45\$assemblyName.dll"
+$sourceFile = "$packageRoot\lib\$targetFramework\$assemblyName.dll"
 gacutil /if $sourcefile
